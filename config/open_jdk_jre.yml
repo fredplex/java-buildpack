@@ -20,10 +20,10 @@ repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
 version: 1.7.0_+
 memory_sizes:
   # metaspace: 64m..
-  permgen: 64m..128m
+  permgen: 64m..
 # memory_heuristics:
-  heap: 84
+  heap: 80
   # metaspace: 10
   permgen: 10
-  stack: 2
-  native: 4
+  stack: 4
+  native: 6
